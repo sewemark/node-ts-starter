@@ -1,5 +1,5 @@
 {
-  "name": "bus-app-node-ts",
+  "name": "node-ts-starter",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -24,13 +24,14 @@
     "chakram": "^1.5.0",
     "concurrently": "^4.1.0",
     "mocha": "^6.2.2",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.19.4",
     "ts-loader": "^4.5.0",
     "ts-node": "^8.4.1",
     "tslint": "^5.20.0",
     "typescript": "^3.6.4"
   },
   "dependencies": {
+    "@godaddy/terminus": "^4.4.1",
     "cors": "^2.8.5",
     "express": "^4.16.3",
     "inversify": "^5.0.1",
@@ -39,8 +40,9 @@
     "pino": "^5.12.0",
     "pino-pretty": "^2.6.0",
     "reflect-metadata": "^0.1.13",
+    "stoppable": "^1.1.0",
     "yup": "^0.27.0"
   },
   "author": "Seweryn Markowicz",
-  "license": "ISC"
+  "license": "MIT"
 }
